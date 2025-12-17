@@ -71,14 +71,6 @@
 ###
 
 <div align="center">
-  <a href="https://open.spotify.com/user/31ib2pvy33uposdjtb7ibx4z5mii">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31ib2pvy33uposdjtb7ibx4z5mii&count=2&unique=true" alt="Spotify recently played"  />
-  </a>
-</div>
-
-###
-
-<div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=anupam99jain.anupam99jain&"  />
 </div>
 
