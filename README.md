@@ -30,7 +30,7 @@
 
 <div align="center">
 
-### ⚡ Tech Stack
+## ⚡ Tech Stack
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="42" alt="C++" />
 &nbsp;&nbsp;
@@ -98,24 +98,16 @@
 
 <div align="center">
 
-## 💻 Competitive Programming
+## 🏅 Achievements
 
 <br>
 
-<a href="https://codeforces.com/profile/anupamjain">
-  <img src="https://img.shields.io/badge/Codeforces-Pupil-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" height="35" alt="Codeforces" />
-</a>
-
-&nbsp;
-
 <a href="https://www.codechef.com/users/anupamjain">
-  <img src="https://img.shields.io/badge/CodeChef-2%20Star-5B4638?style=for-the-badge&logo=codechef&logoColor=white" height="35" alt="CodeChef" />
-</a>
-
-&nbsp;
-
-<a href="https://leetcode.com/">
-  <img src="https://img.shields.io/badge/LeetCode-900%2B%20Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" height="35" alt="LeetCode" />
+  <img
+    src="https://img.shields.io/badge/CodeChef-2%20Star-5B4638?style=for-the-badge&logo=codechef&logoColor=white"
+    height="35"
+    alt="CodeChef"
+  />
 </a>
 
 </div>
@@ -157,15 +149,27 @@ Building ML projects and exploring how intelligent systems work under the hood.
 ## 🔗 Find Me
 
 <a href="https://github.com/anupam99jain">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35" alt="GitHub" />
+  <img
+    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+    height="35"
+    alt="GitHub"
+  />
 </a>
 
 <a href="https://www.linkedin.com/in/anupam99jain">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" />
+  <img
+    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+    height="35"
+    alt="LinkedIn"
+  />
 </a>
 
 <a href="https://www.hackerrank.com/profile/anupam99jain">
-  <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" height="35" alt="HackerRank" />
+  <img
+    src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
+    height="35"
+    alt="HackerRank"
+  />
 </a>
 
 </div>
