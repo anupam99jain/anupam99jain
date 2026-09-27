@@ -1,142 +1,216 @@
 <svg
   width="1200"
-  height="300"
-  viewBox="0 0 1200 300"
+  height="320"
+  viewBox="0 0 1200 320"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
 >
 
   <defs>
 
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.5" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0D1117"/>
+    <linearGradient
+      id="background"
+      x1="0"
+      y1="0"
+      x2="1200"
+      y2="320"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#050816"/>
+      <stop offset="0.5" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#050816"/>
     </linearGradient>
 
-    <linearGradient id="accent" x1="120" y1="80" x2="1000" y2="230" gradientUnits="userSpaceOnUse">
+    <linearGradient
+      id="nameGradient"
+      x1="100"
+      y1="100"
+      x2="900"
+      y2="190"
+      gradientUnits="userSpaceOnUse"
+    >
       <stop stop-color="#00F5A0"/>
       <stop offset="0.5" stop-color="#00D9F5"/>
-      <stop offset="1" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient
+      id="lineGradient"
+      x1="100"
+      y1="0"
+      x2="1100"
+      y2="0"
+    >
+      <stop stop-color="#00F5A0" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#00F5A0"/>
+      <stop offset="0.5" stop-color="#00D9F5"/>
+      <stop offset="0.8" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter
+      id="glow"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+      <feGaussianBlur stdDeviation="14"/>
     </filter>
 
   </defs>
 
-  <!-- Background -->
+  <!-- Main background -->
   <rect
     width="1200"
-    height="300"
-    rx="24"
-    fill="url(#bg)"
+    height="320"
+    rx="28"
+    fill="url(#background)"
   />
 
-  <!-- Decorative glow -->
+  <!-- Ambient glow -->
   <circle
-    cx="1050"
-    cy="70"
-    r="120"
-    fill="#7C3AED"
-    opacity="0.10"
+    cx="150"
+    cy="60"
+    r="140"
+    fill="#00F5A0"
+    opacity="0.07"
     filter="url(#glow)"
   />
 
   <circle
-    cx="150"
-    cy="250"
-    r="100"
-    fill="#00D9F5"
+    cx="1060"
+    cy="230"
+    r="180"
+    fill="#7C3AED"
     opacity="0.08"
     filter="url(#glow)"
   />
 
-  <!-- Decorative lines -->
-  <path
-    d="M760 0L1200 180"
-    stroke="url(#accent)"
-    stroke-width="2"
-    opacity="0.25"
-  />
+  <!-- Background grid -->
+  <g
+    opacity="0.055"
+    stroke="#FFFFFF"
+  >
 
-  <path
-    d="M850 0L1200 140"
-    stroke="url(#accent)"
-    stroke-width="1"
-    opacity="0.15"
-  />
+    <path d="M0 40H1200"/>
+    <path d="M0 80H1200"/>
+    <path d="M0 120H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 200H1200"/>
+    <path d="M0 240H1200"/>
+    <path d="M0 280H1200"/>
 
-  <!-- Small grid -->
-  <g opacity="0.08" stroke="#FFFFFF">
-    <path d="M900 40H1160"/>
-    <path d="M900 80H1160"/>
-    <path d="M900 120H1160"/>
-    <path d="M900 160H1160"/>
-    <path d="M900 200H1160"/>
+    <path d="M40 0V320"/>
+    <path d="M80 0V320"/>
+    <path d="M120 0V320"/>
+    <path d="M160 0V320"/>
+    <path d="M200 0V320"/>
+    <path d="M240 0V320"/>
+    <path d="M280 0V320"/>
+    <path d="M320 0V320"/>
+    <path d="M360 0V320"/>
+    <path d="M400 0V320"/>
+    <path d="M440 0V320"/>
+    <path d="M480 0V320"/>
+    <path d="M520 0V320"/>
+    <path d="M560 0V320"/>
+    <path d="M600 0V320"/>
+    <path d="M640 0V320"/>
+    <path d="M680 0V320"/>
+    <path d="M720 0V320"/>
+    <path d="M760 0V320"/>
+    <path d="M800 0V320"/>
+    <path d="M840 0V320"/>
+    <path d="M880 0V320"/>
+    <path d="M920 0V320"/>
+    <path d="M960 0V320"/>
+    <path d="M1000 0V320"/>
+    <path d="M1040 0V320"/>
+    <path d="M1080 0V320"/>
+    <path d="M1120 0V320"/>
+    <path d="M1160 0V320"/>
 
-    <path d="M920 20V220"/>
-    <path d="M960 20V220"/>
-    <path d="M1000 20V220"/>
-    <path d="M1040 20V220"/>
-    <path d="M1080 20V220"/>
-    <path d="M1120 20V220"/>
   </g>
 
-  <!-- Main heading -->
-  <text
-    x="80"
-    y="125"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="64"
-    font-weight="700"
-    fill="#FFFFFF"
-  >
-    ANUPAM JAIN
-  </text>
-
-  <!-- Accent line -->
-  <rect
-    x="82"
-    y="145"
-    width="260"
-    height="4"
-    rx="2"
-    fill="url(#accent)"
+  <!-- Decorative diagonal lines -->
+  <path
+    d="M800 0L1200 250"
+    stroke="#00D9F5"
+    stroke-opacity="0.15"
+    stroke-width="2"
   />
 
-  <!-- Subtitle -->
-  <text
-    x="82"
-    y="190"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="24"
-    fill="#A7B0BE"
-  >
-    C++ • Systems • Competitive Programming • ML
-  </text>
+  <path
+    d="M900 0L1200 190"
+    stroke="#8B5CF6"
+    stroke-opacity="0.12"
+    stroke-width="2"
+  />
 
-  <!-- Small status -->
+  <!-- Status -->
   <circle
-    cx="91"
-    cy="230"
+    cx="100"
+    cy="72"
     r="6"
     fill="#00F5A0"
   />
 
   <text
-    x="108"
-    y="237"
+    x="118"
+    y="79"
+    fill="#8B949E"
     font-family="Arial, Helvetica, sans-serif"
     font-size="17"
-    fill="#8B949E"
+    letter-spacing="1"
   >
-    Building • Learning • Solving
+    COMPUTER SCIENCE • BUILDER • PROBLEM SOLVER
+  </text>
+
+  <!-- Name -->
+  <text
+    x="95"
+    y="165"
+    fill="url(#nameGradient)"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="72"
+    font-weight="700"
+    letter-spacing="2"
+  >
+    ANUPAM JAIN
+  </text>
+
+  <!-- Accent -->
+  <rect
+    x="98"
+    y="188"
+    width="430"
+    height="4"
+    rx="2"
+    fill="url(#lineGradient)"
+  />
+
+  <!-- Subtitle -->
+  <text
+    x="98"
+    y="232"
+    fill="#B4BCC9"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+  >
+    C++ • Competitive Programming • Systems • Machine Learning
+  </text>
+
+  <!-- Code decoration -->
+  <text
+    x="950"
+    y="280"
+    fill="#00F5A0"
+    fill-opacity="0.35"
+    font-family="monospace"
+    font-size="18"
+  >
+    { build(); solve(); repeat(); }
   </text>
 
 </svg>
