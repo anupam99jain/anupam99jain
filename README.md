@@ -87,9 +87,9 @@
 ## 📊 GitHub Activity
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=anupam99jain&radius=16&theme=github-compact&area=true&hide_border=true"
+  src="./assets/activity.svg"
   width="95%"
-  alt="GitHub activity graph"
+  alt="Custom GitHub activity graph"
 />
 
 </div>
