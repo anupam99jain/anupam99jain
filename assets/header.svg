@@ -1,0 +1,36 @@
+<svg
+    width="1000"
+    height="250"
+    viewBox="0 0 1000 250"
+    xmlns="http://www.w3.org/2000/svg"
+>
+
+    <rect
+        width="1000"
+        height="250"
+        rx="20"
+        fill="#0d1117"
+    />
+
+    <text
+        x="50"
+        y="105"
+        font-family="Arial, sans-serif"
+        font-size="48"
+        font-weight="700"
+        fill="white"
+    >
+        ANUPAM JAIN
+    </text>
+
+    <text
+        x="52"
+        y="145"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#8b949e"
+    >
+        C++ • Systems • Competitive Programming • ML
+    </text>
+
+</svg>
