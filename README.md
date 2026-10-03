@@ -1,13 +1,5 @@
 <h2 align="left">Hi! My name is Anupam Jain<br>Welcome to my Github profile...</h2>
 
-###
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anupam99jain&radius=16&theme=vue&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
-
-###
-
 [![An image of @anupam99jain's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/anupam99jain)](https://holopin.io/@anupam99jain)
 
 ###
