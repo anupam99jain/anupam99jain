@@ -62,7 +62,6 @@
 <text x="25" y="119" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6E7681">Mon</text>
 <text x="25" y="153" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6E7681">Wed</text>
 <text x="25" y="187" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6E7681">Fri</text>
-<rect x="72" y="92" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 27, 2025: 8 contributions</title></rect>
 <rect x="72" y="109" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 28, 2025: 1 contribution</title></rect>
 <rect x="72" y="126" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 29, 2025: 1 contribution</title></rect>
 <rect x="72" y="143" width="13" height="13" rx="3" fill="#161B22"><title>Oct 30, 2025: 0 contributions</title></rect>
@@ -427,7 +426,8 @@
 <rect x="939" y="177" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 24, 2026: 5 contributions</title></rect>
 <rect x="956" y="194" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 25, 2026: 3 contributions</title></rect>
 <rect x="956" y="92" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 26, 2026: 2 contributions</title></rect>
-<rect x="956" y="109" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 27, 2026: 1 contribution</title></rect>
+<rect x="956" y="109" width="13" height="13" rx="3" fill="#0E4429"><title>Oct 27, 2026: 9 contributions</title></rect>
+<rect x="956" y="126" width="13" height="13" rx="3" fill="#161B22"><title>Oct 28, 2026: 0 contributions</title></rect>
 <text x="890" y="268" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#6E7681">Less</text>
 <rect x="930" y="258" width="13" height="13" rx="3" fill="#161B22"/>
 <rect x="947" y="258" width="13" height="13" rx="3" fill="#0E4429"/>
